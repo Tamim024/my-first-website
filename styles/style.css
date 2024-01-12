@@ -170,8 +170,28 @@ width: 511px;
     text-align: center;
     margin-top: 50px;
 }
-
-
+footer {
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    
+    background-color: #FFF8F3;
+    margin-top: 50px;
+.footer-column {
+    width: 50%;
+    text-align: left;
+    margin-left: 100px;
+}
+.contact input, textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #474747;
+    width: 80%;
+}
+.social-link a {
+    margin-right: 25px;
+}
 
 
 
