@@ -107,6 +107,7 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
+    margin-bottom: 20px;
 }
 .about-info {
     display: flex;
@@ -115,3 +116,65 @@ main {
 .abt-inf {
     text-align: center;
 }
+.skill {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 15px;
+}
+.skill-cntnt {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 24px;
+    padding: 30px;
+}
+.resume-column {
+    display: flex;
+    justify-content: space-around;
+}
+.resume-title {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.resume-item-title {
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.resume-item-info {
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.resume-des {
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; /* 175% */
+width: 511px;
+}
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
